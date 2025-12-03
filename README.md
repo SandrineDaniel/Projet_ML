@@ -90,7 +90,7 @@ We selected **CatBoost**, justified by scientific literature showing strong perf
 
 ---
 
-##  **Performance Summary**
+##  ✿ Performance Summary
 
 Across all models, the best performing approach was:
 
