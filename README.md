@@ -51,7 +51,7 @@ At the end, all processed datasets (`X_train`, `X_test`, `scaled`, etc.) are sav
 
 Covers all model development steps:
 
-#### ** ❥ Baseline Models**
+####  ❥ Baseline Models
 
 * Logistic Regression
 * Decision Tree
@@ -61,16 +61,16 @@ Covers all model development steps:
 
 Evaluated using **F1-macro**, **F1-weighted**, **ROC-AUC**, and **confusion matrices**.
 
-#### ** ❥ Class Imbalance Strategies**
+####  ❥ Class Imbalance Strategies
 
 * `class_weight="balanced"`
 * SMOTE (used selectively)
 
-#### ** ❥ Dimensionality Reduction**
+####  ❥ Dimensionality Reduction
 
 * PCA applied (but not kept — no performance improvement)
 
-#### ** ❥ Hyperparameter Tuning**
+####  ❥ Hyperparameter Tuning
 
 * RandomizedSearchCV for:
   * Logistic Regression
@@ -78,19 +78,19 @@ Evaluated using **F1-macro**, **F1-weighted**, **ROC-AUC**, and **confusion matr
   * Random Forest
   * XGBoost
 
-#### ** ❥ Ensemble Learning**
+####  ❥ Ensemble Learning
 
 * Bagging
 * Soft Voting
 * Stacking
 
-#### ** ❥ Advanced Model**
+####  ❥ Advanced Model
 
 We selected **CatBoost**, justified by scientific literature showing strong performance on tabular datasets with many categorical features.
 
 ---
 
-## ** Performance Summary**
+##  **Performance Summary**
 
 Across all models, the best performing approach was:
 
