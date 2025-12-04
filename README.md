@@ -120,4 +120,13 @@ Projet_ML/
 Dataset available on Kaggle:
 [https://www.kaggle.com/datasets/brandao/diabetes](https://www.kaggle.com/datasets/brandao/diabetes)
 
+Although the dataset covers admissions up to 2008, this does not limit the value of our project.
+Public medical datasets are typically historical due to privacy regulations and long anonymization processes.
+
+The underlying problem of predicting hospital readmission for diabetic patients remains highly relevant today, as diabetes continues to be one of the major causes of hospitalization worldwide.
+
+Most of the predictive factors used in this dataset (age, comorbidities, medication patterns, lab tests, length of stay, previous visits) are stable over time and still used in modern clinical decision-making.
+
+Therefore, even if the data is historical, the insights and models developed remain applicable to today’s hospital workflows and can support risk stratification and resource planning.
+
 
